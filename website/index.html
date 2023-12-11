@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matrix Background</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #000;
+    }
+
+    canvas {
+      display: block;
+      position: absolute;
+    }
+
+    #centeredImage {
+      width: 7vw; /* Adjust the width as needed */
+      height: auto; /* Maintain aspect ratio */
+      max-width: 100%;
+      max-height: 100%;
+      position: absolute;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="matrix"></canvas>
+  <img id="centeredImage" src="static/images/rm_black_glow.png" alt="Centered Image">
+  <script src="static/js/matrix.js"></script>
+</body>
+</html>
