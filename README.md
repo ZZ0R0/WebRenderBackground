@@ -6,7 +6,7 @@ install and compile
 
 ```
 git clone https://github.com/ZZ0R0/WebRenderBackground.git
-cd WebRenderBackground/engine
+cd WebRenderBackground
 sudo bash install.sh
 ./project
 ```
