@@ -4,4 +4,9 @@ A simple qt5 application that render indes.html with js as background
 
 install and compile
 
-gt clone 
+```
+git clone https://github.com/ZZ0R0/WebRenderBackground.git
+cd WebRenderBackground/engine
+sudo bash install.sh
+./project
+```
