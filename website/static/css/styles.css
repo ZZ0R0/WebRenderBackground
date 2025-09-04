@@ -1,0 +1,36 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000;
+}
+
+
+#centeredImage {
+    width: 25vw;
+    /* Adjust the width as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+}
+
+#backgroundCanvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+#matrixCanvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
